@@ -1054,11 +1054,11 @@ img {
 }
 
 @media(max-width: 991px) {
-	section {
+	/* section {
 		position: relative;
 		margin-top: -1px;
 		margin-bottom: -100px;
-	}
+	} */
 
 	.slide-div-wrapper p {
 		padding: 0 20px;
