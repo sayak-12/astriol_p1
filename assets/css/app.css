@@ -19937,3 +19937,8 @@ input[type='radio'] {
 .slide-div-wrapper ul {
 	padding: 0 20px;
 }
+@media (max-width: 768px) {
+	.astriol-pagination {
+		display: none;
+	}
+}
