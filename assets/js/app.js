@@ -317,6 +317,7 @@ var GPTHEME = GPTHEME || {};
 					mousewheel: {
     releaseOnEdges: true,
 },
+autoHeight:true,
 					  direction: "horizontal",
 					fadeEffect: {
 						crossFade: true
