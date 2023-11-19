@@ -19942,3 +19942,13 @@ input[type='radio'] {
 		display: none;
 	}
 }
+@media (max-width: 768px) {
+	.mainslider {
+		display: none;
+	}
+}
+@media (min-width: 768px) {
+	.mobile-view {
+		display: none !important;
+	}
+}
