@@ -314,6 +314,11 @@ var GPTHEME = GPTHEME || {};
 					// autoplay: {
 					// 	delay: 5000,	
 					// },
+					mousewheel: {
+    releaseOnEdges: true,
+},
+autoHeight:true,
+					  direction: "horizontal",
 					fadeEffect: {
 						crossFade: true
 					},

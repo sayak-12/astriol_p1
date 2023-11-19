@@ -19937,3 +19937,18 @@ input[type='radio'] {
 .slide-div-wrapper ul {
 	padding: 0 20px;
 }
+@media (max-width: 768px) {
+	.astriol-pagination {
+		display: none;
+	}
+}
+@media (max-width: 768px) {
+	.mainslider {
+		display: none;
+	}
+}
+@media (min-width: 768px) {
+	.mobile-view {
+		display: none !important;
+	}
+}
