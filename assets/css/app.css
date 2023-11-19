@@ -19960,6 +19960,8 @@ input[type='radio'] {
 	}
 }
 
+@media (min-width: 992px) {
+
 .slide-div-wrapper {
         height: 400px;
         overflow-y: auto; 
@@ -19985,4 +19987,5 @@ input[type='radio'] {
 
 .slide-div-wrapper:not(:hover)::-webkit-scrollbar-thumb {
     display: none; 
+}
 }
