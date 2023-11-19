@@ -65,7 +65,7 @@
 		<!--=        Navbar         =-->
 		<!--=========================-->
 		<header class="site-header header-sass header-transparent header-fixed" data-header-fixed="true"
-			data-mobile-menu-resolution="992">
+			data-mobile-menu-resolution="992" style="background-color: white;">
 			<div class="container">
 				<div class="header-inner">
 
@@ -531,7 +531,7 @@
 					<div class="slide4">
 						<div class="slide-div-wrapper"
 												style="@media (min-width: 992px) { height: 400px; overflow: scroll; width: 795px;}">
-												<div id="overlay" style="display: none;
+												<div id="overlay1" style="display: none;
 											position: fixed;
 											top: 0;
 											left: 0;
@@ -586,7 +586,7 @@
 												
 												<h1 style="text-align: center;margin-bottom: 40px;color: #f7ab25;">Your
 													Thoughts</h1>
-												<textarea name="" onclick="openModal()" id="" cols="50" rows="10"
+												<textarea name="" onclick="openModal1()" id="" cols="50" rows="10"
 													placeholder="You can share your thoughts about problem here"
 													style="background-color: #fff;width: 100%;height: 200px;"></textarea>
 												<button style="color: #fff;background-color: #f7ab25;font-family: 'Poppins', sans-serif;font-size: 25px;padding: 9px 26px;border-radius: 6px;
@@ -717,9 +717,15 @@
 		function openModal() {
 			document.getElementById("overlay").style.display = "flex";
 		}
+		function openModal1() {
+			document.getElementById("overlay1").style.display = "flex";
+		}
 
 		function closeModal() {
 			document.getElementById("overlay").style.display = "none";
+		}
+		function closeModal1() {
+			document.getElementById("overlay1").style.display = "none";
 		}
 
 		var countDownDate = new Date("November 18, 2023 22:00:00").getTime();
